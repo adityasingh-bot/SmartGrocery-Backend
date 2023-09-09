@@ -9,7 +9,7 @@ app.use("/users",users);
 app.get('/app', (req,res)=>{
     res.send("Hello I am here Node Express");
 })
-console.log("Shiv :::")
+
 app.listen(port, ()=>{
     console.log(`Running on ${port}`);
 })
